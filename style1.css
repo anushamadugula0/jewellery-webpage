@@ -714,6 +714,7 @@ img {
     background-color: #FFFFFF;
     padding: 45px 35px;
     border: 1px solid #EAE2D5;
+    transition: transform 0.3s ease-in, box-shadow 0.3s ease-in;
     text-align: left;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.01);
 }
@@ -745,7 +746,6 @@ img {
 .testimonial-card:hover {
     transform: translateY(-4px);
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-    transform: transform 0.4s ease-in;
     cursor: pointer;
 }
 
